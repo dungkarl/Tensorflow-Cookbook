@@ -2,7 +2,7 @@
     + Implementing Back Propagation
 """
 
-import tensorflow as tf 
+import tensorflow as tf
 import numpy as np
 
 sess = tf.Session()
@@ -24,7 +24,7 @@ loss = tf.square(my_output - y_target)
 init = tf.global_variables_initializer()
 sess.run(init)
 
-# 7: 
+# 7:
 my_opt = tf.train.GradientDescentOptimizer(learning_rate=0.02)
 train_step = my_opt.minimize(loss)
 
