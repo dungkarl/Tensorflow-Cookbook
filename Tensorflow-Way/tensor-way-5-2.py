@@ -1,8 +1,9 @@
 import tensorflow as tf 
-from tensorflow.python.framework import ops
+#from tensorflow.python.framework import ops
 
-import numpy as np 
-ops.reset_default_graph()
+import numpy as np
+tf.reset_default_graph()
+#ops.reset_default_graph()
 
 sess = tf.Session()
 
