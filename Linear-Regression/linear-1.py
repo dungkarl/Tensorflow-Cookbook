@@ -6,7 +6,7 @@
     + Implementing Deming Regression
     + Implementing Lasso and Ridge Regression
     + Implementing Elastic Net Regression
-    + Implementing Regression Logistic Regression
+    + Implementing Logistic Regression
 """
 
 import tensorflow as tf 
